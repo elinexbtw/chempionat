@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космос</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light">
+<header>
+    <h1>Добро пожаловать в мир космоса!</h1>
+    <button id="theme-toggle"><img src="https://github.com/elinexbtw/chempionat/blob/main/image.png?raw=true" alt="Smena" style="max-height: 40px;"></button>
+    <nav>
+        <button onclick="location.href='index.html'">Космос</button>
+        <button onclick="location.href='family.html'">Семья</button>
+    </nav>
+</header>
+    <main>
+        <section>
+            <h2>Выбор планеты</h2>
+            <select id="planet-select">
+                <option value="">Выберите планету</option>
+                <option value="mercury">Меркурий</option>
+                <option value="venus">Венера</option>
+                <option value="earth">Земля</option>
+                <option value="mars">Марс</option>
+                <option value="jupiter">Юпитер</option>
+                <option value="saturn">Сатурн</option>
+                <option value="uranus">Уран</option>
+                <option value="neptune">Нептун</option>
+            </select>
+        </section>
+        <section id="planet-info">
+            <h3>Информация о планете</h3>
+            <p id="info-text">Пожалуйста, выберите планету.</p>
+            <img id="planet-image" src="" alt="" style="display:none;">
+            <p id="description-text"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
