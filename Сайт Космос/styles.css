@@ -48,3 +48,20 @@ section {
     max-width: 600px; 
     height: auto;
 }
+nav {
+    margin-top: 10px;
+}
+
+nav button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    background-color: #4CAF50; 
+    color: white; 
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+nav button:hover {
+    background-color: #45a049; 
+}
